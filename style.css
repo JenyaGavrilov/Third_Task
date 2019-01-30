@@ -1,0 +1,859 @@
+main {
+	margin: 0 0;
+	padding: 0;
+	width: 1366px;
+	height: 768px;
+	display: flex;
+	flex-direction: column;
+	overflow-x: scroll;
+}
+
+.head {
+	margin-top: -10px;
+	padding: 0;
+}
+
+.head img,
+.footer img {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+
+.container {
+	height: 560px;
+	width: 1366px;
+	margin-left: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+section {
+	padding: 0 40px 0 0;
+	height: 130px;
+	padding-bottom: 20px;
+}
+
+section p {
+	font: 100 50px "Segoe UI";
+	padding-left: 120px;
+	line-height: 1;
+}
+
+button:hover {
+	opacity: .8;
+	cursor: pointer;
+}
+
+.first-block {
+	width: 360px;
+}
+
+.second-block {
+	width: 230px;
+}
+
+.third-block {
+	width: 230px;
+}
+
+.fourth-block {
+	width: 510px;
+}
+
+.first-block,
+.second-block,
+.third-block,
+.fourth-block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.other-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 475px;
+}
+
+.t-shirts,
+.bags {
+	height: 370px;
+	overflow: hidden;
+}
+
+.t-shirts a {
+	top: -140px;
+}
+
+.t-shirts a,
+.cups a,
+.cards a,
+.toys a,
+.magnets a,
+.pencils a,
+.bags a,
+.notebooks a,
+.scrum-cards a,
+.smartphones a,
+.glasses a,
+.trainers a {
+	position: relative;
+	text-decoration: none;
+}
+
+.t-shirts a p {
+	height: 40px;
+	width: 360px;
+	top: -97px;
+	padding: 2px 0 0 20px;
+}
+
+.t-shirts a p,
+.cups a p,
+.cards a p,
+.toys a p,
+.magnets a p,
+.pencils a p,
+.bags a p,
+.notebooks a p,
+.scrum-cards a p,
+.smartphones a p,
+.glasses a p,
+.trainers a p {
+	position: relative;
+	background-color: white;
+	opacity: .7;
+	z-index: 3;
+	font: 25px "Segoe UI";
+	color: black;
+}
+
+.t-shirts a p:hover,
+.cups a p:hover,
+.cards a p:hover,
+.toys a p:hover,
+.magnets a p:hover,
+.pencils a p:hover,
+.bags a p:hover,
+.notebooks a p:hover,
+.scrum-cards a p:hover,
+.smartphones a p:hover,
+.glasses a p:hover,
+.trainers a p:hover {
+	opacity: .8;
+}
+
+.smartphones img {
+	width: 140%;
+	position: relative;
+	top: 10px;
+}
+
+.cups a {
+	top: -40px;
+}
+
+.cups a p {
+	height: 40px;
+	width: 360px;
+	top: -78px;
+	padding: 2px 0 0 20px;
+}
+
+.cards a {
+	top: -30px;
+	left: -20px;
+}
+
+.cards a p {
+	height: 40px;
+	width: 230px;
+	top: -95px;
+	padding: 2px 0 0 35px;
+}
+
+.toys a {
+	top: -70px;
+	left: -20px;
+}
+
+.toys a p {
+	height: 40px;
+	width: 230px;
+	top: -153px;
+	padding: 2px 0 0 35px;
+}
+
+.magnets a {
+	top: -70px;
+	left: 0;
+}
+
+.magnets a p {
+	height: 40px;
+	width: 230px;
+	top: -172px;
+	padding: 2px 0 0 20px;
+}
+
+.pencils a {
+	top: -20px;
+	left: -45px;
+}
+
+.pencils a p {
+	height: 40px;
+	width: 230px;
+	top: -97px;
+	left: 15px;
+	padding: 2px 0 0 50px;
+}
+
+.bags a {
+	top: -20px;
+	left: -45px;
+}
+
+.bags a p {
+	height: 40px;
+	width: 230px;
+	top: -77px;
+	left: 15px;
+	padding: 2px 0 0 50px;
+}
+
+.notebooks a img {
+	width: 475px;
+}
+
+.notebooks a {
+	top: -70px;
+	left: 0px;
+}
+
+.notebooks a p {
+	height: 40px;
+	top: -147px;
+	padding: 2px 0 0 20px;
+}
+
+.scrum-cards a {
+	top: -2px;
+	left: -40px;
+}
+
+.scrum-cards a p {
+	height: 40px;
+	top: -74px;
+	left: 40px;
+	padding: 2px 0 0 20px;
+}
+
+.glasses a {
+	top: 50px;
+	left: 20px;
+}
+
+.glasses img {
+	width: 100%;
+	position: relative;
+	top: -90px;
+	left: -20px;
+}
+
+.glasses a p {
+	height: 40px;
+	width: 230px;
+	top: -172px;
+	padding: 2px 0 0 40px;
+}
+
+.smartphones a {
+	top: -22px;
+	left: -40px;
+}
+
+.smartphones a p {
+	height: 40px;
+	top: -70px;
+	left: 40px;
+	padding: 2px 0 0 20px;
+}
+
+.trainers img {
+	width: 100%;
+	position: relative;
+	top: 60px;
+}
+
+.trainers a {
+	top: -70px;
+	left: -20px;
+}
+
+.trainers a p {
+	height: 40px;
+	width: 230px;
+	top: -23px;
+	padding: 2px 0 0 35px;
+}
+
+.cups,
+.cards,
+.toys,
+.magnets,
+.pencils,
+.notebooks {
+	height: 180px;
+	overflow: hidden;
+}
+
+.block-1,
+.block-2 {
+	width: 230px;
+	height: 370px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.scrum-cards,
+.glasses,
+.smartphones,
+.trainers {
+	height: 180px;
+	overflow: hidden;
+}
+
+footer {
+	position: relative;
+	top: 35px;
+}
+
+#categoryPopupOverlay {
+	position: absolute;
+	top: 4px;
+	left: 5px;
+	display: none;
+	width: 1370px;
+	height: 768px;
+	background-color: rgba(255, 255, 255, 1);
+	z-index: 50;
+	overflow: hidden;
+}
+
+.category-popup {
+	position: absolute;
+	top: -10px;
+	left: 0px;
+	width: 1370px;
+	height: 650px;
+	background-color: rgba(255, 255, 255, 1);
+	z-index: 50;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+#popUpHeader {
+	height: 120px;
+	position: relative;
+	top: -5px;
+	font: 100 50px "Segoe UI";
+	line-height: 1;
+	width: 500px;
+	text-align: left;
+	left: 150px;
+}
+
+#categoryPopupOverlay.opened {
+	display: block;
+}
+
+#closePopupBtn {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+#closePopupBtn:hover {
+	filter: invert(50%);
+}
+
+.popup-header {
+	height: 120px;
+}
+
+#openCartButton {
+	position: absolute;
+	background-color: #d9644a;
+	border: none;
+	color: white;
+	width: 280px;
+	height: 60px;
+	text-align: right;
+	padding-right: 30px;
+	font: 25px "Segoe UI";
+	background-image: url("images/basket-icon.png");
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	z-index: 51;
+	left: 1050px;
+	top: 45px;
+}
+
+.product {
+	width: 360px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.item-img {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	height: 370px;
+	overflow: hidden;
+	z-index: 50;
+}
+
+.item-img p:first-child {
+	position: relative;
+	background-color: white;
+	opacity: .7;
+	font: 25px "Segoe UI";
+	color: black;
+	height: 40px;
+	top: 305px;
+	padding-left: 20px;
+	padding-top: 0;
+}
+
+.item-img p:last-child {
+	position: relative;
+	background-color: transparent;
+	font: 25px "Segoe UI";
+	color: black;
+	height: 50px;
+	top: 240px;
+	left: 250px;
+	padding-left: 20px;
+	padding-top: 3px;
+	width: 70px;
+}
+
+.item-img:hover {
+	border: 2px solid #d9644a;
+}
+
+.amount {
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #4ea686;
+}
+
+.price {
+	position: relative;
+	text-align: right;
+	top: -30px;
+}
+
+.product-list {
+	width: 1366px;
+	height: 465px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 120px;
+	width: 1486px;
+}
+
+.minus-button {
+	position: relative;
+	top: 18px;
+	border: 1.5px solid white;
+	width: 35px;
+	height: 45px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	background-color: #4ea686;
+	padding-bottom: 5px;
+	padding-right: 5px;
+}
+
+
+.amount-block {
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #4ea686;
+}
+
+.amount-block button {
+	text-decoration: none;
+	width: 50px;
+
+}
+
+.amount-block button:hover {
+	opacity: 0.8;
+}
+
+.plus,
+.minus {
+	position: relative;
+	bottom: 10px;
+}
+
+.plus-button {
+	position: relative;
+	top: 18px;
+	width: 35px;
+	height: 45px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	border: 1.5px solid white;
+	padding-top: 4px;
+	background-color: #4ea686;
+}
+
+.amount-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.amount-box p {
+	color: white;
+}
+
+.amount-box p:first-child {
+	font: 100 15px "Segoe UI";
+	position: relative;
+	top: 10px;
+	
+}
+
+.amount-box p:last-child {
+	font: 400 25px "Segoe UI";
+	position: relative;
+	bottom: 35px;
+	text-align: center;
+
+}
+
+.basket-popup {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 1);
+	z-index: 100;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.basket {
+	width: 1400px;
+	height: 768px;
+	overflow-x: scroll;
+}
+
+.basket-header {
+	width: 100%;
+	height: 135px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.basket-header p {
+	width: 885px;
+	height: 45px;
+	font: 60px "Segoe UI";
+	font-weight: 300;
+	color: black;
+	line-height: 0.5;
+	position: fixed;
+	top: -15px;
+}
+
+.basket-header span {
+	height: 45px;
+	position: fixed;
+	left: 50px;
+}
+
+#closeBasketBtn {
+	position: absolute;
+	left: 50px;
+	top: 50px;
+}
+
+#closeBasketBtn:hover {
+	filter: invert(50%);
+}
+
+.basket-body {
+	height: 480px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 120px;
+	width: 600px;
+}
+
+.shop-list {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 400px;
+}
+	
+.list-body div:nth-child(2n+1) {
+	background-color: #bf613f; 
+}
+
+.list-body div:nth-child(2n) {
+	background-color: #d9644a;
+}
+
+
+.list-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: #d9644a;
+	height: 50px;
+}
+
+.list-header p {
+	font: 400 20px "Segoe UI";
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 10px;
+}
+
+.list-header p:first-child {
+	padding-left: 20px;
+}
+
+.list-header p:last-child {
+	padding-right: 30px;
+}
+
+.list-header p:nth-child(2) {
+	position: relative;
+	left: 70px;
+}
+
+
+.list-body {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.list-body div {
+	height: 50px;
+	text-align: left;
+	font: 300 20px "Segoe UI";
+	color: white;
+	padding-left: 20px;
+	line-height: 0.5;
+}
+
+.cart-item {
+	width: 580px;
+	height: 50px;
+	text-align: left;
+	font: 300 20px "Segoe UI";
+	color: white;
+	line-height: 0.5;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: inherit;
+	position: relative;
+	left: -20px;
+}
+
+.cart-item:nth-child(2n) .cart-amount {
+	background-color: #d9644a; 
+}
+
+.cart-item:nth-child(2n+1) .cart-amount {
+	background-color: #bf613f; 
+}
+
+.product-name {
+	width: 240px;
+	position: relative;
+	left: -30px;
+	height: 40px;
+	bottom: 5px;
+}
+
+.cart-amount {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100px;
+	height: 30px;
+	position: relative;
+	left: -50px;
+	top: 0px;
+	background-color: none;
+}
+
+
+
+
+
+.list-amount {
+	width: 50px;
+	height: 30px;
+	position: relative;
+	top: -15px;
+	text-align: center;
+	font: 300 20px "Segoe UI";
+	color: white;
+	background-color: inherit;
+}
+
+.product-price {
+	position: relative;
+	left: -20px;
+	top: -10px;
+	width: 70px;
+	height: 30px;
+	text-align: center;
+	font: 300 20px "Segoe UI";
+	color: white;	
+}
+
+
+.clear-item {
+	background: url('images/basket.png') no-repeat 50% 50%;
+	background-size: 50%;
+	filter: invert(100%);
+	width: 25px;
+	height: 25px;
+	border: 1px solid black;
+	position: relative;
+	top: 10px;
+}
+
+.add  {
+	background: url("images/plus.png") no-repeat 50% 50%;
+	background-size: 100%;
+	filter: invert(100%);
+	width: 25px;
+	height: 25px;
+	border: none;
+	position: relative;
+	top: 10px;
+	font: 300 30px "Segoe UI";
+	color: white;
+}
+
+.remove {
+	background: url("images/minus-icon.png") no-repeat 50% 50%;
+	background-size: 120%;
+	filter: invert(100%);
+	width: 25px;
+	height: 25px;
+	border: none;
+	position: relative;
+	top: 10px;
+	font: 300 30px "Segoe UI";
+	color: white;
+}
+
+.list-footer { 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+	padding: 0 10px;
+	background-color: #343e40; 
+	height: 50px;
+	color: white;
+}
+
+#clear-button {
+	width: 90px;
+	height: 25px;
+	background-color: #343e40;
+	font: 400 12px "Segoe UI";
+	border: 1px solid white;
+	color: #fff;
+}
+
+.list-footer p {
+	margin: 0;
+	font: 400 25px "Segoe UI";
+}
+
+
+.control-panel {
+	width: 100%;
+	height: 70px;
+	background-color: #4ea686;
+}
+
+#continue {
+	background-color: #4ea686;
+	background-image: none;
+	width: 145px;
+	height: 25px;
+	font: 400 12px "Segoe UI";
+	position: relative;
+	right: 0px;
+	top: 25px;
+	border: 1px solid white;
+	margin-left: 20px;
+	text-align: left;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	color: white;
+}
+
+#buy {
+	background-color: #4ea686;
+	background-image: none;
+	width: 90px;
+	height: 25px;
+	font: 400 12px "Segoe UI";
+	position: relative;
+	left: 270px;
+	top: 25px;
+	border: 1px solid white;
+	margin-left: 20px;
+	text-align: center;
+	padding-bottom: 3px;
+	color: white;
+}
+
+.disactive {
+	display: none;
+}
+
+.active {
+	display: block;
+}

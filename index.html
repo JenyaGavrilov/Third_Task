@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task-3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="head">
+			<img src="images/top.png">
+			<button type="button" name="button" value="Button" class="openCartButton" id="openCartButton">$ 0</button>
+		</div>
+	</header>
+	<main id="main">	
+		<section>
+			<p> Shopping Cart — Make Purchases Now!</p>
+		</section>
+		<div class="container">
+			<div class="first-block">
+				<div class="t-shirts" id="t-shirts">
+					<a href="#"><img src="images/t-shirts.png">
+						<p>T-Shirts</p>
+					</a>
+				</div>
+				<div class="cups" id="cups">
+					<a href="#"><img src="images/caps.png">
+						<p>Cups</p>
+					</a>
+				</div>
+			</div>
+			<div class="second-block">
+				<div class="cards" id="cards">
+					<a href="#"><img src="images/cards.png">
+						<p>Cards</p>
+					</a>
+				</div>
+				<div class="toys" id="toys">
+					<a href="#"><img src="images/toys.png">
+						<p>Toys</p>
+					</a>
+				</div>
+				<div class="magnets" id="magnets">
+					<a href="#"><img src="images/magnets.png">
+						<p>Magnets</p>
+					</a>
+				</div>
+			</div>
+			<div class="third-block">
+				<div class="pencils" id="pencils">
+					<a href="#"><img src="images/pencils.png">
+						<p>Pens & Pencils</p>
+					</a>
+				</div>
+				<div class="bags" id="bags">
+					<a href="#"><img src="images/bags.png">
+						<p>Bags</p>
+					</a>
+				</div>
+			</div>
+			<div class="fourth-block">
+				<div class="notebooks" id="notebooks">
+					<a href="#"><img src="images/notebooks.png">
+						<p>Notebooks</p>
+					</a>
+				</div>
+				<div class="other-items">
+					<div class="block-1">
+						<div class="scrum-cards" id="scrum-cards">
+							<a href="#"><img src="images/scrum-cards.png">
+								<p>Scrum cards</p>
+							</a>
+						</div>
+						<div class="smartphones" id="smartphones">
+							<a href="#"><img src="images/Smartphones.png">
+								<p>Smartphones</p>
+							</a>
+						</div>
+					</div>
+					<div class="block-2">
+						<div class="glasses" id="glasses">
+							<a href="#"><img src="images/glasses.jpg">
+								<p>Glasses</p>
+							</a>
+						</div>
+						<div class="trainers" id="trainers">
+							<a href="#"><img src="images/shoes.jpg">
+								<p>Trainers</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="categoryPopupOverlay">
+			<div class = "category-popup">
+				<div class="popup-header">
+					<img id="closePopupBtn" src="images/back-button.png">
+					<p id="popUpHeader"></p>
+				</div>
+				<div class="product-list">
+				</div>	
+			</div>
+		</div>
+
+
+
+		
+	</main>
+	<div class="basket-popup" id="basketPopup">
+		<div class="basket">
+			<div class="basket-header">
+				<img id="closeBasketBtn" src="images/back-button.png">
+				<p>Your Cart</p>
+			</div>
+			<div class="basket-body">	
+				<div class="shop-list">	
+					<div class="list-header">	
+						<p>Shop List</p>
+						<p>Amount</p>
+						<p>Price</p>
+					</div>
+					<div class="list-body">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="list-footer">	
+						<button id="clear-button" type="button" name="clear-button" value="Button">Clear All</button>
+						<p>Sum <span class="sum-output">0 $</span></p>
+					</div>
+				</div>
+				<div class="control-panel">	
+					<button id="continue" type="button" name="clear-button" value="Button" >Continue Shopping</button>
+					<button id="buy" type="button" name="clear-button" value="Button" class="css3button">Buy</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+		<template id="productTemplate">
+			<div class="product" >
+				<div class="item-img">
+					<div class="item-title">
+						<p class="title"></p>
+						<p class="price"></p> 
+					</div>
+				</div>
+				<div class="amount-block">
+					<button class="minus-button">&ndash;</button>
+					<div class="amount-box">
+						<p>amount</p>
+						<p class="amount"></p>
+					</div>
+					<button class="plus-button">+</button>
+				</div>
+			</div>
+		</template>
+		
+		<template id="cartItemTemplate">
+			<div class="cart-item">
+				<button class="clear-item"></button>
+				<p class="product-name"></p>
+				<div class="cart-amount">
+					<button class="remove"></button>
+					<p class="list-amount"></p>
+					<button class="add"></button>
+				</div>
+				<p class="product-price"></p>
+			</div>
+		</template>
+
+	<script  src="eventListeners.js"></script>
+	<script  src="data.js"></script>
+	<script  src="categories.js"></script>
+	<script  src="cart.js"></script>
+	<footer>
+		<img src="images/top.png">	
+	</footer>
+</body>
+</html>
